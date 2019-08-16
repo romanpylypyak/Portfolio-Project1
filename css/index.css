@@ -32,11 +32,7 @@ header {
     /*   margin-left: 110px;*/
 }
 
-
-/*----------------------------------------!IMPORTANT HERE---------------------------------------------------*/
-
 #navbar {
-    background-color: #0000!important;
     position: absolute;
     width: 80%;
     justify-content: center;
@@ -44,9 +40,6 @@ header {
     right: 140px;
     padding: 10px 0px 0px 10px;
 }
-
-
-/*----------------------------------------!IMPORTANT HERE---------------------------------------------------*/
 
 #navbar ul {
     margin-left: 300px;
@@ -169,6 +162,11 @@ header h1 {
 .hovered:hover {
     border-bottom: 3px solid;
     border-bottom-color: #faca36;
+}
+
+.hovered{
+    border-bottom: 3px solid;
+    border-bottom-color: #0000;
 }
 
 .secTitle p {
@@ -1091,7 +1089,7 @@ footer .secTitle p {
     }
 }
 
-@media(max-width:783px) {
+@media(max-width:786px) {
     #navbar ul {
         margin-left: 160px;
     }
